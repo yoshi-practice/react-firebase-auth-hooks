@@ -23,7 +23,7 @@ const SignUp = () => {
 
   return (
     <div>
-      <h1>Sign Up {user.email}</h1>
+      <h1>Sign Up {user && user.email}</h1>
       <form onSubmit={handleSubmit}>
         <label>
           Mail:
